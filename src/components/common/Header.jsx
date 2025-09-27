@@ -1,5 +1,5 @@
 import { useLocation, Link } from "react-router-dom";
-import logoColabSuit from '../assets/img/logo-light.png'
+import logoColabSuit from '../../assets/img/logo-light.png'
 import React from "react";
 
 function Header(){
