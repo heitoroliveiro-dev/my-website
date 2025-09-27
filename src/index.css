@@ -46,4 +46,9 @@
               transition duration-300 ease-in-out;
     @apply hover:bg-primary hover:text-white hover:border-primary-dark;
   }
+
+  /* Borda personalizada para Hero Section */
+  .border-3 {
+    border-width: 3px;
+  }
 }
