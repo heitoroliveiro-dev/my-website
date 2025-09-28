@@ -2,16 +2,24 @@
   <!-- Background circular com gradiente -->
   <circle cx="16" cy="16" r="16" fill="url(#gradient)" />
   
-  <!-- Ícone de código/desenvolvedor -->
-  <path d="M10 12L6 16L10 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M22 12L26 16L22 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 10L14 22" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <!-- Ícone do Hugo (H estilizado) adaptado -->
+  <g transform="translate(6,6) scale(0.6)">
+    <!-- Hexágono de fundo (similar ao Hugo) -->
+    <path d="M20 4L32 11V21L20 28L8 21V11L20 4Z" fill="rgba(255,255,255,0.15)" stroke="white" stroke-width="0.5"/>
+    
+    <!-- Letra H do Hugo -->
+    <g fill="white">
+      <rect x="12" y="8" width="3" height="16" />
+      <rect x="25" y="8" width="3" height="16" />
+      <rect x="12" y="15" width="16" height="3" />
+    </g>
+  </g>
   
   <!-- Gradiente definition -->
   <defs>
     <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8A4AF3;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#6C3BE0;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#FF4088;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C9177E;stop-opacity:1" />
     </linearGradient>
   </defs>
 </svg>
