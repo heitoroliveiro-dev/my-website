@@ -42,12 +42,14 @@ const Footer = () =>{
                             >
                                 github
                             </a>
+                            {/* Comentado durante desenvolvimento
                             <a
                                 href="/colabsuit"
                                 className={`block ${linkHoverClasses} font-sans`}
                             >
                                 colabsuit
                             </a>
+                            */}
                         </div>
                     </div>
 

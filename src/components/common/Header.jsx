@@ -55,7 +55,7 @@ function Header(){
     // Menu Items para reutilizar
     const menuItems = [
         { to: '/', label: 'home' },
-        { to: '/colabsuit', label: 'colabsuit' }
+        // { to: '/colabsuit', label: 'colabsuit' } // Comentado durante desenvolvimento
     ];
 
     // Mobile Menu Dropdown
