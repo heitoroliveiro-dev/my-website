@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 // Conteúdo da seção
 const heroContent = {
-    title: "Desenvolvedor Full-Stack",
+    title: "Desenvolvedor Full-Stack Jr.",
     subtitle: "tecnologia e comunicação estratégica transformando desafios em soluções web que entregam impacto real",
     body: "Sou um Desenvolvedor Full-Stack com mais de quatro anos de experiência em vendas, onde desenvolvi fortes habilidades de comunicação, negociação e resolução de problemas. Agora, aplico esse mesmo foco e motivação à minha carreira em tecnologia, com experiência prática em desenvolvimento de aplicativos web e mobile. Tenho um sólido conhecimento de todo o ciclo de vida do desenvolvimento de software e trabalho com tecnologias como PHP, C#, .NET, JavaScript, React Native e SQL. Também tenho familiaridade com metodologias ágeis (Scrum), arquitetura MVC e controle de versão com Git.",
     buttonText: "Vamos conversar"
@@ -173,18 +173,6 @@ const HeroSection = () => {
                         {/* Border decorativa */}
                         <div className={`absolute inset-0 border-3 rounded-3xl pointer-events-none transition-all duration-500 ${isHovered ? 'border-primary/60' : 'border-primary/20'}`}></div>
                     </div>
-                </div>
-
-                {/* Botão CTA */}
-                <div>
-                    <a href="https://wa.me/5531995214736/?text=Ola,​%20como%20posso%20te%20ajudar%20hoje?">
-                        <button className="btn-primary text-lg sm:text-xl px-8 py-4 sm:px-12 sm:py-6 inline-flex items-center space-x-3 hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-primary/25 cursor-pointer">
-                            <span>{heroContent.buttonText}</span>
-                            <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                            </svg>
-                        </button>
-                    </a>
                 </div>
             </div>
             

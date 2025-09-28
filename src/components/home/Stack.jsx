@@ -59,7 +59,7 @@ const Stack = () => {
             <div className="absolute inset-0">
                 {/* Imagem de background com opacidade muito baixa */}
                 <div 
-                    className="absolute inset-0 opacity-20"
+                    className="absolute inset-0 opacity-40"
                     style={{
                         backgroundImage: `url('/images/tech-cubes-bg.jpg')`,
                         backgroundSize: 'cover',
