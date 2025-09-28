@@ -57,6 +57,17 @@ const Stack = () => {
         <section className="py-16 sm:py-20 lg:py-24 bg-dark-bg relative overflow-hidden">
             {/* Background com imagem de cubos futurísticos bem escura */}
             <div className="absolute inset-0">
+                {/* Imagem de background */}
+                <div 
+                    className="absolute inset-0 opacity-5"
+                    style={{
+                        backgroundImage: `url('/images/tech-cubes-bg.jpg')`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat'
+                    }}
+                ></div>
+                
                 {/* Background futurístico com gradientes apenas */}
                 <div 
                     className="absolute inset-0 opacity-10"

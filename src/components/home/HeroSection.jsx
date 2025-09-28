@@ -11,18 +11,18 @@ const heroContent = {
 const HeroSection = () => {
     const [isHovered, setIsHovered] = useState(false);
     const [imageLoaded, setImageLoaded] = useState(false);
-    const [imageSrc, setImageSrc] = useState("https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face");
+    const [imageSrc, setImageSrc] = useState("/images/profile-photo.jpg");
     const [debugInfo, setDebugInfo] = useState({ attempts: 0, errors: [] });
 
     // Função melhorada para carregar a imagem de perfil no hero
     const tryImagePaths = () => {
         const paths = [
+            "/images/profile-photo.jpg",
             "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face",
             "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=500&fit=crop&crop=face",
             "https://picsum.photos/500/500?random=1",
             "https://picsum.photos/500/500?random=2",
-            "https://picsum.photos/500/500?random=3",
-            "https://picsum.photos/500/500?random=4"
+            "https://picsum.photos/500/500?random=3"
         ];
         
         let currentIndex = 0;
@@ -69,7 +69,7 @@ const HeroSection = () => {
             <div 
                 className="absolute inset-0 opacity-20"
                 style={{
-                    backgroundImage: `url('https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=1920&h=1080&fit=crop')`,
+                    backgroundImage: `url('/images/herosection-bg.jpg')`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat'

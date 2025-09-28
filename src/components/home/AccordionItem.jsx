@@ -49,7 +49,7 @@ function AccordionItem({ project, isOpen, handleToggle }) {
                   className="rounded-lg object-cover w-full h-48 sm:h-64 lg:h-72 shadow-lg border border-gray-600/30"
                   onError={(e) => {
                     // Fallback para imagem não encontrada
-                    e.target.src = 'https://picsum.photos/400/300?random=99';
+                    e.target.src = '/images/project-placeholder.jpg';
                     e.target.onerror = null;
                   }}
                 />
