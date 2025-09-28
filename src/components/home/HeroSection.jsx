@@ -31,14 +31,14 @@ const HeroSection = () => {
             if (currentIndex < paths.length - 1) {
                 currentIndex++;
                 const nextPath = paths[currentIndex];
-                console.log(`🔄 Tentativa ${currentIndex + 1}/${paths.length}: ${nextPath}`);
+                // console.log(`🔄 Tentativa ${currentIndex + 1}/${paths.length}: ${nextPath}`);
                 setImageSrc(nextPath);
                 setDebugInfo(prev => ({ 
                     ...prev, 
                     attempts: currentIndex + 1
                 }));
             } else {
-                console.warn(`⚠️ Todas as ${paths.length} tentativas falharam. Usando placeholder profissional.`);
+                // console.warn(`⚠️ Todas as ${paths.length} tentativas falharam. Usando placeholder profissional.`);
                 setDebugInfo(prev => ({ 
                     ...prev, 
                     errors: [...prev.errors, 'Todos os caminhos falharam']
@@ -50,10 +50,10 @@ const HeroSection = () => {
     };
 
     // Usar useEffect para debugging melhor
-    useEffect(() => {
-        console.log('🚀 HeroSection montado - iniciando carregamento de imagem');
-        console.log(`📁 Caminho inicial: ${imageSrc}`);
-    }, []);
+    // useEffect(() => {
+    //     console.log('🚀 HeroSection montado - iniciando carregamento de imagem');
+    //     console.log(`📁 Caminho inicial: ${imageSrc}`);
+    // }, []);
 
     return (
         <section className="min-h-screen relative overflow-hidden font-sans flex items-center justify-center bg-dark-bg text-dark-text">
@@ -136,7 +136,7 @@ const HeroSection = () => {
                                 setImageLoaded(false);
                             }}
                             onLoad={(e) => {
-                                console.log(`✅ Imagem carregada: ${e.target.src}`);
+                                // console.log(`✅ Imagem carregada: ${e.target.src}`);
                                 setImageLoaded(true);
                             }}
                         />
@@ -150,7 +150,7 @@ const HeroSection = () => {
                                 
                                 {/* Texto principal longo */}
                                 <div className="flex-1 flex items-center justify-center">
-                                    <p className="text-xs sm:text-sm lg:text-base text-white leading-relaxed font-light max-w-md lg:max-w-lg text-justify px-2">
+                                    <p className="text-xs sm:text-sm lg:text-base text-white leading-relaxed font-light max-w-md lg:max-w-lg text-justify px-2 font-sans">
                                         {heroContent.body}
                                     </p>
                                 </div>
