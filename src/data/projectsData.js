@@ -55,4 +55,18 @@ export const projects = [
     technologies: ["WordPress", "WooCommerce", "PHP", "E-commerce"],
     link:"https://jgframe.com"
   },
+  {
+    id:5,
+    title: "colabsuit.com",
+    imageSrc:"/images/colabpage.png",
+    imageAlt: "Página inicial do colabsuit.com",
+    description: "Desenvolvimento de uma landing page promocional para a ColabSuit, um projeto que oferece serviços de instalação, personalização e manutenção do sistema Perfex CRM. A página foi projetada para destacar os benefícios do serviço e atrair potenciais clientes interessados em otimizar suas operações de CRM.",
+    details: [
+        "Interface intuitiva e visualmente atraente utilizando WordPress, PHP, MySQL e CSS.",
+        "Recursos para otimização de SEO e performance do site.",
+        "Integração com ferramentas de marketing digital."
+    ],
+    technologies: ["WordPress", "PHP", "MySQL", "CSS", "JS", "GitHub Actions"],
+    link:"https://colabsuit.com"
+  }
 ];
