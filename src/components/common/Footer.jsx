@@ -58,7 +58,7 @@ const Footer = () =>{
                         <h3 className="text-lg font-medium mb-4 sm:mb-6 uppercase tracking-wide font-sans">CONTATO</h3>
                         <div className="space-y-2 sm:space-y-3">
                             <p className="text-sm sm:text-base">
-                                <span className="block font-sans">whatsapp: (31) 995214736</span>
+                                <span className="block font-sans">whatsapp: (31) 99521-4736</span>
                             </p>
                             <p className="text-sm sm:text-base">
                                 <span className="block font-sans">E-mail: heitoroliveiro.dev@outlook.com</span>
