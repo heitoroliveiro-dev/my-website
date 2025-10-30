@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 // Conteúdo da seção
 const heroContent = {
     title: "Desenvolvedor Full-Stack Jr.",
     subtitle: "tecnologia e comunicação estratégica transformando desafios em soluções web que entregam impacto real",
     body: "Sou um Desenvolvedor Full-Stack com mais de quatro anos de experiência em vendas, onde desenvolvi fortes habilidades de comunicação, negociação e resolução de problemas. Agora, aplico esse mesmo foco e motivação à minha carreira em tecnologia, com experiência prática em desenvolvimento de aplicativos web e mobile. Tenho um sólido conhecimento de todo o ciclo de vida do desenvolvimento de software e trabalho com tecnologias como PHP, C#, .NET, JavaScript, React Native e SQL. Também tenho familiaridade com metodologias ágeis (Scrum), arquitetura MVC e controle de versão com Git.",
-    buttonText: "Vamos conversar"
+    buttonText: "Saiba mais"
 };
 
 const HeroSection = () => {
